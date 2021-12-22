@@ -46,5 +46,5 @@ $router->get('/PrivacyPolicy',['middleware'=>'auth','uses'=>'InformationEtcContr
 $router->get('/About',['middleware'=>'auth','uses'=>'InformationEtcController@About']);
 
 $router->get('/rowcount',['middleware'=>'auth','uses'=>'ChartController@columnCount']);
-$router->post('/rowcount',['middleware'=>'auth','uses'=>'ChartController@columnCount']);
+// $router->post('/rowcount',['middleware'=>'auth','uses'=>'ChartController@columnCount']);
 
