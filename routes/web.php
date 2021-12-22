@@ -48,3 +48,4 @@ $router->get('/About',['middleware'=>'auth','uses'=>'InformationEtcController@Ab
 $router->get('/rowcount',['middleware'=>'auth','uses'=>'ChartController@columnCount']);
 // $router->post('/rowcount',['middleware'=>'auth','uses'=>'ChartController@columnCount']);
 
+// lumen api
